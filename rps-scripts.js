@@ -1,5 +1,5 @@
 const getComputerChoice = () => {
-  return Math.floor(Math.random() * 3);
+  const randomChoice =  Math.floor(Math.random() * 3);
   if (randomChoice === 0) {
     return "rock";
   }
