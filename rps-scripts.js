@@ -1,18 +1,3 @@
-//Player choice 
-
-const playerChoice = () => {
-  const playerChoice = prompt("Enter you weapon choice (Rock, Paper, or Scissors)", "").toLowerCase();
-  if (playerChoice = "rock") {
-    return playerChoice
-  }
-  if (playerChoice = "paper") {
-    return playerChoice
-  }
-  if (playerChoice = "scissors") {
-    return playerChoice
-  }
-}
-
 //Computer choice
 
 const getComputerChoice = () => {
@@ -26,4 +11,10 @@ const getComputerChoice = () => {
   if (randomChoice === 2) {
     return "scissors";
   }
+}
+
+//Game round
+
+function gameRound (playerSelection, computerSelection) {
+
 }
