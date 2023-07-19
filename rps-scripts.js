@@ -1,3 +1,5 @@
+//Player choice 
+
 const playerChoice = () => {
   const playerChoice = prompt("Enter you weapon choice (Rock, Paper, or Scissors)", "").toLowerCase();
   if (playerChoice = "rock") {
@@ -10,6 +12,8 @@ const playerChoice = () => {
     return playerChoice
   }
 }
+
+//Computer choice
 
 const getComputerChoice = () => {
   const randomChoice =  Math.floor(Math.random() * 3);
