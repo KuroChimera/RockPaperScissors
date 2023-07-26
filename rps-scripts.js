@@ -32,7 +32,7 @@ function gameRound (playerSelection, computerSelection) {
 //Gameplay loop
 
 function game() {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 5; i++) {
     const playerSelection = prompt("Pick you weapon! Rock, Paper, or Scissors").toLowerCase();
     const computerSelection = getComputerChoice();
     let roundResult = gameRound(playerSelection, computerSelection);
