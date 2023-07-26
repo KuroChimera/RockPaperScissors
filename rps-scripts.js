@@ -46,11 +46,11 @@ function game() {
     const computerSelection = getComputerChoice();
     let roundResult = gameRound(playerSelection, computerSelection);
     console.log(roundResult);
-    gameScore(roundResult);
     console.log("Player score is " + playerScore);
-    console.log("Computer score is" + computerScore);
+    console.log("Computer score is " + computerScore);
+    console.log("Tie score is " + tieScore);
     if (playerScore === 5 || computerScore === 5) {
-      break;
+      return ("You win the game!" || "The computer wins the game!"); 
     }
   }
 }
