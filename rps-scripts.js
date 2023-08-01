@@ -49,8 +49,10 @@ function game() {
     console.log("Player score is " + playerScore);
     console.log("Computer score is " + computerScore);
     console.log("Tie score is " + tieScore);
-    if (playerScore === 5 || computerScore === 5) {
-      return ("You win the game!" || "The computer wins the game!"); 
+    if (playerScore > computerScore) {
+      return ("You win the game!");  
+    } else {
+      return ("The computer wins the game!");
     }
   }
 }
